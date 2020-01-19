@@ -1,0 +1,362 @@
+/*********************************TAGS***************************/
+* {
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+}
+
+a img {
+  outline: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+button button:focus button:active {
+  outline: none;
+  border: none;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+/*********************************CLASSES***************************/
+.avatar {
+  border-radius: 100%;
+  float: left;
+  margin-right: 2rem;
+  scale: 0.350;
+  margin: 0;
+  display: inline;
+  text-align: left;
+}
+
+.avatar-box {
+  margin-left: -2.5rem;
+  margin-top: -1rem;
+}
+
+.avatar-box::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.avatar-text {
+  float: left;
+  margin-top: 2.3rem;
+  margin-left: -2rem;
+}
+
+.avatar-box h5 {
+  margin: 0;
+  display: inline;
+}
+
+.box p {
+  margin-bottom: 0;
+}
+
+.box-quote {
+  scale: 1.5;
+  margin-left: 0.25rem;
+}
+
+.box {
+  float: left;
+  width: 55%;
+  background-color: white;
+  padding: 2rem;
+  padding-bottom: 0;
+  margin-bottom: 10rem;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 3%;
+}
+
+.btn-prm {
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  background-color:#3065f8;
+	border-radius:3px;
+  border: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:12px 75px;
+	text-decoration:none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+
+.btn-scn {
+  margin-bottom: 5rem;
+  display: block;
+  border-style: none none solid none;
+  background-color: hsl(240, 75%, 98%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  padding-bottom: 0.4rem;
+  color: hsl(170, 45%, 43%);
+  cursor: pointer;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.curve {
+  width: 100%;
+  margin-bottom: -2rem;
+}
+
+.early-access {
+  background-color: hsl(238, 22%, 44%);
+  padding: 5rem;
+}
+
+.early-access::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.ea-text {
+  float: left;
+  margin-left: 2rem;
+  width: 40%;
+  color: white;
+}
+
+.ea-mail {
+  float: right;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+
+.email-gs {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 13px 20px;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  width: 23rem;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 4px;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(91, 91, 91, 1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252, 252, 252, 1);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.email-ea {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 13px 20px;
+  padding-right: 60px;
+  width: 30rem;
+  margin-bottom: 1rem;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 4px;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(91, 91, 91, 1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252, 252, 252, 1);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.icon-arrow {
+  vertical-align: middle;
+}
+
+.icon-phone {
+  vertical-align: middle;
+  margin: 1rem 1.5rem 1rem 0;
+}
+
+.icon-mail {
+  vertical-align: middle;
+  margin: 0 1.5rem 0 0;
+}
+
+.ill-1 {
+  float: right;
+  margin-right: 15rem;
+  scale: 0.6;
+  width: 40%;
+  margin-bottom: 5rem;
+}
+
+.ill-2 {
+  float: right;
+  scale: 0.5;
+  width: 40%;
+  margin-right: 8rem;
+}
+
+.logo {
+  float: left;
+  margin-left: 7rem;
+}
+
+ .logo-bottom {
+  width: 10rem;
+  margin-top: -6rem;
+  margin-bottom: -5rem;
+}
+.footer-mail {
+  margin-top: -1.5rem;
+}
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 10rem;
+  color: white;
+}
+
+.footer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer-contact {
+  float: left;
+}
+
+.footer-social {
+  margin-right: 10rem;
+}
+
+.footer-social img {
+  display: inline;
+  width: 2.5rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(138deg) brightness(104%) contrast(101%);
+  float: right;
+  margin-top: 4.8rem;
+  margin-left: 3rem;
+}
+
+.footer-menu {
+  float: none;
+}
+
+.footer-menu ul {
+  float: left;
+  margin: 3.5rem 0rem 0rem 17rem;
+  list-style-type: none;
+}
+
+.footer-menu ul li {
+  margin-top: 1.5rem;
+}
+
+.footer-menu ul a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .get-started input button {
+  margin-top: 10rem;
+} */
+
+.get-started::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 4rem;
+}
+
+.menu a {
+  margin-right: 2rem;
+}
+
+.header {
+  padding: 4rem 0 2rem 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.text {
+  float: left;
+  margin-left: 7rem;
+  width: 40%;
+  margin-top: 18rem;
+}
+
+.text-2 {
+  float: left;
+  margin-left: 7rem;
+  width: 45%;
+  margin-top: 18rem;
+}
+
+.text-2 p {
+  width: 85%;
+}
+
+.text-2 h1 {
+  font-size: 2.5rem;
+  ;
+}
+
+.title {
+  font-size: 2.7rem;
+}
+
+.wrapper {
+  background-color: hsl(240, 75%, 98%);
+  margin: 0;
+}
+
+.wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 375px) {
+  body {
+  display: grid;
+  }
+
+}
